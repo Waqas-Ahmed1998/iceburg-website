@@ -1,0 +1,80 @@
+.footer {
+  background-color: #333;
+  font-family: 'Mukta', sans-serif;
+  overflow-y: hidden;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: inherit;
+    grid-gap: 1rem;
+    padding: 4rem 0;
+
+    .logoPart {
+      > p {
+        color: whitesmoke;
+      }
+      .logo {
+        color: white;
+      }
+    }
+    > div {
+      padding: 0 2rem;
+      font-family: 'Raleway', sans-serif;
+      // height: 200px;
+      a {
+        color: #c1c1c1;
+      }
+    }
+    li {
+      margin-top: 1rem;
+      color: #c1c1c1;
+    }
+  }
+  .highlight {
+    font-size: 1.2rem;
+    color: white;
+  }
+}
+.icons {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  color: #fffffc;
+  // transform: scale(1.5);
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  transition: all 200ms ease-in-out;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid whitesmoke;
+  letter-spacing: 1px;
+  color: #c1c1c1;
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    a {
+      margin: 1rem;
+    }
+  }
+  .date {
+    font-weight: 600;
+  }
+  a:hover {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .social {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+}

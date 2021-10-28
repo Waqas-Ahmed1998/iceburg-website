@@ -1,0 +1,119 @@
+$mobile-landing-heading: 2.5rem;
+$mobile-height: 80vh;
+$landing-color: white;
+
+.landing {
+  position: relative;
+  height: 90vh;
+  background-color: #ffffff;
+
+  .flex {
+    display: flex;
+    background-color: #ffffff;
+    height: inherit;
+    align-items: center;
+
+    // padding: 1rem;
+  }
+
+  .content {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 7;
+    height: 55vh;
+    // color: white;
+    .welcome {
+      font-size: 3.5rem;
+
+      font-family: 'Goblin One', cursive;
+      // z-index: 1;
+    }
+
+    .description {
+      font-family: 'Mukta', sans-serif;
+      line-height: 1.8rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+      letter-spacing: 0.1rem;
+      z-index: 1;
+    }
+  }
+  .image {
+    padding: 1rem;
+    flex: 7;
+  }
+  // a {
+  //   display: inline-block;
+  //   transform: translateY(100%);
+  // }
+}
+
+.btn {
+  // display: inline-block;
+  padding: 0.4rem 1rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  transition: all 100ms ease-in-out;
+  // border-radius: 20px;
+}
+.btn:hover {
+  color: #936639;
+}
+.btnAbout {
+  @extend .btn;
+  background-color: #e8e8e4;
+}
+.btnService {
+  @extend .btn;
+  background-color: #d8e2dc;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing {
+    // padding-left: 0.5rem;
+    // height: $mobile-height;
+    .content {
+      max-width: fit-content;
+      .welcome {
+        font-size: $mobile-landing-heading;
+      }
+      .description {
+        font-family: 'Mukta', sans-serif;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        letter-spacing: 2;
+      }
+    }
+    .btnlanding {
+      position: relative;
+      bottom: 2rem;
+    }
+  }
+  .flex {
+    flex-direction: column;
+    padding: 0;
+    gap: 3rem;
+    .content {
+      .welcome {
+        font-size: 2.2rem;
+        // margin: 0;
+      }
+    }
+    .image {
+      padding: 0rem;
+      flex: 7;
+    }
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .landing {
+    .content {
+      max-width: fit-content;
+      .welcome {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

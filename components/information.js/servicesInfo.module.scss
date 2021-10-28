@@ -1,0 +1,22 @@
+.servicesInfo {
+  padding: 3rem;
+  background: linear-gradient(to right, #f8f9fa, #dee2e6);
+
+  .heading {
+    background-color: inherit;
+    font-size: 2rem;
+    font-family: 'Goblin One', cursive;
+    color: #343a40;
+    letter-spacing: 2px;
+  }
+}
+.container {
+  background-color: inherit;
+}
+.bottomLine {
+  margin: auto;
+  width: 4rem;
+  height: 3px;
+  background-color: #e574bc;
+  transform: translateY(-1.1rem);
+}
