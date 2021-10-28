@@ -30,6 +30,11 @@
       color: #c1c1c1;
     }
   }
+  .address li {
+    display: flex;
+    align-items: center;
+    margin-top: 1.4rem;
+  }
   .highlight {
     font-size: 1.2rem;
     color: white;
@@ -37,7 +42,7 @@
 }
 .icons {
   margin-right: 1rem;
-  margin-top: 0.5rem;
+  font-size: 1.8rem;
   color: #fffffc;
   // transform: scale(1.5);
 }

@@ -60,7 +60,7 @@ const Footer = function () {
         </motion.div>
         <motion.div animate={inView ? { y: [-1000, 0], opacity: [0, 1] } : {}}>
           <p className={styles.highlight}>Get in Touch</p>
-          <ul>
+          <ul className={styles.address}>
             <li>
               <i className={`fas fa-envelope fa-2x ${styles.icons} `}></i>
               Email here
