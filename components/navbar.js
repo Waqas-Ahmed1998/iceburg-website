@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import style from '../styles/navbar.module.scss';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 const Navbar = function () {
   let [onClick, setClass] = useState(true);
   const [effect, setEffect] = useState(true);
@@ -18,7 +19,17 @@ const Navbar = function () {
     <nav id='navbar' className={style.navbar}>
       <div className={`container ${style.flex}`}>
         <div>
-          <h1 className={style.logo}>logo</h1>
+          <h1 className={style.logo}>
+            {' '}
+            <Image
+              src={'/ice.png'}
+              alt='web'
+              height={100}
+              width={100}
+              quality={100}
+              priority={true}
+            />
+          </h1>
         </div>
         <div className={style.manue}>
           <motion.p
@@ -58,5 +69,7 @@ const Navbar = function () {
     </nav>
   );
 };
+// <h1 className={style.logo}>logo</h1>
+
 // < MenuIcon fontSize='large' />
 export default Navbar;

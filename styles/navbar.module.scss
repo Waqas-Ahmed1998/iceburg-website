@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-  padding: 1rem;
+  // padding: 1rem;
 
   z-index: 5;
 
@@ -8,16 +8,19 @@
   .flex {
     display: flex;
     justify-content: space-between;
-
+    // background-color: #444;
     align-items: center;
     background-color: #ffffff;
   }
 
   .logo {
+    margin: 0;
+    margin: auto;
+    align-self: center;
     color: #b89f5d;
     font-size: 2rem;
+    padding-top: 1rem;
     pointer-events: none;
-    // padding: 0 1rem;
   }
   ul {
     display: flex;

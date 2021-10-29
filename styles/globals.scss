@@ -96,6 +96,15 @@ h2 {
 }
 
 // default classes\
+.logo {
+  margin: 0;
+  margin: auto;
+  align-self: center;
+  color: #b89f5d;
+  font-size: 2rem;
+  padding-top: 1rem;
+  pointer-events: none;
+}
 .btn {
   cursor: pointer;
 }

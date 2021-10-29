@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import styles from '../styles/footer.module.scss';
 import { motion } from 'framer-motion';
 import useInView from 'react-cool-inview';
-
+import Image from 'next/image';
 const Footer = function () {
   const { observe, inView } = useInView({
     threshold: 0.25,
@@ -18,7 +18,17 @@ const Footer = function () {
           className={styles.logoPart}
           animate={inView ? { y: [1000, 0], opacity: [0, 1] } : {}}
         >
-          <h2 className={styles.logo}>LOGO</h2>
+          <h1 className={`logo`}>
+            {' '}
+            <Image
+              src={'/ice.png'}
+              alt='web'
+              height={100}
+              width={100}
+              quality={100}
+              priority={true}
+            />
+          </h1>
           <p>
             Some Description Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Vero, temporibus.{' '}
