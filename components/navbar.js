@@ -26,7 +26,6 @@ const Navbar = function () {
               alt='web'
               height={100}
               width={100}
-              quality={100}
               priority={true}
             />
           </h1>
