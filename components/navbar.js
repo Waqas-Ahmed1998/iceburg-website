@@ -36,11 +36,11 @@ const Navbar = function () {
             {effect ? (
               <i
                 animate={{ opacity: [0.1] }}
-                className='fas fa-stream icon'
+                className={`fas fa-stream ${style.icon}`}
               ></i>
             ) : (
               // <CloseIcon fontSize='large' />
-              <i className='fas fa-times icon'></i>
+              <i className={`fas fa-times ${style.icon}`}></i>
             )}
           </motion.p>
         </div>
