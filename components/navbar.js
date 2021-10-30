@@ -32,11 +32,7 @@ const Navbar = function () {
           </h1>
         </div>
         <div className={style.manue}>
-          <motion.p
-            className='btn'
-            whileTap={{ scale: 1.2 }}
-            onClick={setClass}
-          >
+          <motion.p whileTap={{ scale: 1.2 }} onClick={setClass}>
             {effect ? (
               <i
                 animate={{ opacity: [0.1] }}

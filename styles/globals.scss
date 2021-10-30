@@ -109,13 +109,13 @@ h2 {
   cursor: pointer;
 }
 .btnNavigator {
-  display: inline-block;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
 
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.5rem;
   border-radius: 50%;
+
   background-color: #999;
   color: #ffffff;
   z-index: 5;

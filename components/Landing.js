@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import styles from './landing.module.scss';
 import useInView from 'react-cool-inview';
 import Image from 'next/image';
-
+import Link from 'next/link';
 const LandingPage = function () {
   const duration = 0.5;
   const { observe, inView, scrollDirection } = useInView({
@@ -22,13 +22,13 @@ const LandingPage = function () {
   return (
     <section ref={observe} className={` ${styles.landing}`}>
       {vertical === 'up' && (
-        <motion.a
-          className='btnNavigator'
+        <Link
+          // className='btnNavigator'
           href='#navbar'
-          animate={!inView ? { opacity: 1 } : { opacity: 0 }}
+          // animate={!inView ? { opacity: 1 } : { opacity: 0 }}
         >
-          <i className='fas fa-arrow-up'></i>
-        </motion.a>
+          <i className='btnNavigator fas fa-arrow-up'></i>
+        </Link>
       )}
       <div id='landing' className={`container active ${styles.flex}`}>
         <motion.div
@@ -67,6 +67,7 @@ const LandingPage = function () {
     </section>
   );
 };
+<i className='fas fa-arrow-up'>Hello</i>;
 // animate={inView ? { x: [-1000, 0] } : {}}
 // transition={{ duration: duration }}
 export default LandingPage;
