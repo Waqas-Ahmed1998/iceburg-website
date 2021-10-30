@@ -1,16 +1,16 @@
 .navbar {
   position: relative;
   // padding: 1rem;
-
+  background: linear-gradient(to right, #f8f9fa, #dee2e6);
   z-index: 5;
 
   transition: all 200ms ease-in-out;
   .flex {
     display: flex;
     justify-content: space-between;
-    // background-color: #444;
+    background-color: inherit;
     align-items: center;
-    background-color: #ffffff;
+    // background-color: #ffffff;
   }
 
   .logo {
