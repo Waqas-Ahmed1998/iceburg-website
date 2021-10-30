@@ -56,9 +56,9 @@ const LandingPage = function () {
         >
           <Image
             className={styles.image}
-            src='/marketing.jpg'
+            src='/marketing.png'
             alt='web'
-            height={400}
+            height={550}
             width={800}
             priority={true}
           />

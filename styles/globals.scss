@@ -146,6 +146,10 @@ h2 {
 
 .image {
   text-align: center;
+  > a {
+    display: inline-block;
+    text-align: center;
+  }
 }
 ////// **************services
 

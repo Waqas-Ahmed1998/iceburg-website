@@ -39,10 +39,11 @@ const Why = function () {
         >
           <Image
             className={styles.image}
-            src='/marketing.jpg'
+            src='/marketing.png'
             alt='web'
-            height='400px'
-            width='700px'
+            height={550}
+            width={800}
+            priority={true}
           />
         </motion.div>
         <motion.div
