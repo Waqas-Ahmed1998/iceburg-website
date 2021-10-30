@@ -34,10 +34,7 @@ const Navbar = function () {
         <div className={style.manue}>
           <motion.p whileTap={{ scale: 1.2 }} onClick={setClass}>
             {effect ? (
-              <i
-                animate={{ opacity: [0.1] }}
-                className={`fas fa-stream ${style.icon}`}
-              ></i>
+              <i className={`fas fa-stream ${style.icon}`}></i>
             ) : (
               // <CloseIcon fontSize='large' />
               <i className={`fas fa-times ${style.icon}`}></i>

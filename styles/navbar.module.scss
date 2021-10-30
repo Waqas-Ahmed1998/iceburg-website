@@ -37,9 +37,11 @@
     }
   }
   .manue {
-    align-self: center;
     display: none;
-    z-index: 2;
+    > p {
+      padding: 0.5rem;
+    }
+    // z-index: 2;
   }
   ul li:last-child a {
     background-color: #90e0ef;
@@ -51,7 +53,8 @@
   cursor: pointer;
   color: #0095fe;
   font-size: 1.5rem;
-  margin-right: 1rem;
+  pointer-events: none;
+  // margin-right: 1rem;
   vertical-align: middle;
 }
 @media only screen and (max-width: 600px) {
