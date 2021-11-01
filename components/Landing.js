@@ -27,7 +27,9 @@ const LandingPage = function () {
           href='#navbar'
           // animate={!inView ? { opacity: 1 } : { opacity: 0 }}
         >
-          <i className='btnNavigator fas fa-arrow-up'></i>
+          <a>
+            <i className='btnNavigator fas fa-arrow-up'></i>
+          </a>
         </Link>
       )}
       <div id='landing' className={`container active ${styles.flex}`}>

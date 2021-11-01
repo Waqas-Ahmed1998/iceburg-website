@@ -18,7 +18,7 @@ const Video = function () {
         animate={inView ? { x: [10, 1], opacity: [0, 1] } : {}}
       >
         {' '}
-        Web development
+        VIDEO EDITING
       </motion.h2>
       <motion.div
         className={`bottomLine`}
@@ -58,9 +58,9 @@ const Video = function () {
           animate={inView ? { x: [1000, 0], opacity: [0, 1] } : {}}
         >
           <Image
-            src={'/v.png'}
+            src={'/video.png'}
             alt='web'
-            height={440}
+            height={460}
             width={700}
             priority={true}
           />

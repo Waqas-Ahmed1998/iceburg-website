@@ -115,7 +115,7 @@ h2 {
   cursor: pointer;
   padding: 0.4rem 0.5rem;
   border-radius: 50%;
-
+  pointer-events: stroke;
   background-color: #999;
   color: #ffffff;
   z-index: 5;

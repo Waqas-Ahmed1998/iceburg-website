@@ -19,7 +19,7 @@ const Web = function () {
         animate={inView ? { x: [10, 1], opacity: [0, 1] } : {}}
       >
         {' '}
-        Web development & Design
+        Web development
       </motion.h2>
       <motion.div
         className={`bottomLine`}

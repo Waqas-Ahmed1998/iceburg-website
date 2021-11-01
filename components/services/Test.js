@@ -17,7 +17,7 @@ const Test = function () {
         animate={inView ? { x: [10, 1], opacity: [0, 1] } : {}}
       >
         {' '}
-        SEO SERVICE{' '}
+        WEB DESIGN{' '}
       </motion.h2>
       <motion.div
         className={`bottomline`}
@@ -63,9 +63,9 @@ const Test = function () {
         >
           <Image
             // className={styles.image}
-            src='/seo.png'
+            src='/design.png'
             alt='web'
-            height='450px'
+            height='500px'
             width='600px'
             priority={true}
           />

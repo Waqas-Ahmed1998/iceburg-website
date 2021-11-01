@@ -36,8 +36,7 @@ const Home = function () {
       <Seo />
       <Video />
       <Test />
-      <Example />
-      <Marketing />
+
       <Testimonials />
       <Footer />
     </Fragment>
@@ -45,6 +44,10 @@ const Home = function () {
 };
 
 export default Home;
+
+// <Example />
+// <Marketing />
+// <Testimonials />
 // <Test />
 //
 // <Object />
