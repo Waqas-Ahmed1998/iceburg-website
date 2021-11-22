@@ -29,28 +29,8 @@ const Footer = function () {
               priority={true}
             />
           </h1>
-          <p>
-            Some Description Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Vero, temporibus.{' '}
-          </p>
         </motion.div>
-        <motion.div animate={inView ? { y: [-1000, 0], opacity: [0, 1] } : {}}>
-          <p className={styles.highlight}>Quick Links</p>
-          <ul>
-            <li>
-              <a href=''>facebook</a>
-            </li>
-            <li>
-              <a href=''>twitter</a>
-            </li>
-            <li>
-              <a href=''>instagram</a>
-            </li>
-            <li>
-              <a href=''>instagram</a>
-            </li>
-          </ul>
-        </motion.div>
+
         <motion.div animate={inView ? { y: [1000, 0], opacity: [0, 1] } : {}}>
           <p className={styles.highlight}>Industires</p>
           <ul>
@@ -110,5 +90,23 @@ const Footer = function () {
     </footer>
   );
 };
+
+// <motion.div animate={inView ? { y: [-1000, 0], opacity: [0, 1] } : {}}>
+// <p className={styles.highlight}>Quick Links</p>
+// <ul>
+//   <li>
+//     <a href=''>facebook</a>
+//   </li>
+//   <li>
+//     <a href=''>twitter</a>
+//   </li>
+//   <li>
+//     <a href=''>instagram</a>
+//   </li>
+//   <li>
+//     <a href=''>instagram</a>
+//   </li>
+// </ul>
+// </motion.div>
 
 export default Footer;

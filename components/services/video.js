@@ -33,24 +33,19 @@ const Video = function () {
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
             {' '}
             <i className='fas fa-chevron-right icon'></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
+            Get a finished, polished video in half the time
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
+            <i className='fas fa-chevron-right icon'></i> Our price is much more
+            affordable than other video editing services
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut
+            <i className='fas fa-chevron-right icon'></i> Promote your business
+            more effectively on social media with professional videos
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
-          </motion.p>
-          <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
+            <i className='fas fa-chevron-right icon'></i> Get help with any
+            project you have
           </motion.p>
         </motion.div>
         <motion.div

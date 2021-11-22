@@ -32,28 +32,19 @@ const Test = function () {
           <ul>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Get professional web designs in less time
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Your idea our creativity!
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              We create eye catching desings in affordable prices.
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
-            </li>
-            <li>
-              <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Our colors flow with your thoughts.
             </li>
           </ul>
         </motion.div>

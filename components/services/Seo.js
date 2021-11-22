@@ -32,28 +32,19 @@ const Seo = function () {
           <ul>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Build relationships with your customers
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Stay ahead of the competition
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Be found in search results
             </li>
             <li>
               <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
-            </li>
-            <li>
-              <i className='fas fa-chevron-right icon'></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              incidunt corrupti omnis voluptatum
+              Get more business
             </li>
           </ul>
         </motion.div>

@@ -33,24 +33,19 @@ const Web = function () {
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
             {' '}
             <i className='fas fa-chevron-right icon'></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
+            Increase conversion rates with user-friendly design
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
+            <i className='fas fa-chevron-right icon'></i> Make your company
+            stand out in the digital world
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i>Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut
+            <i className='fas fa-chevron-right icon'></i>Create a unique,
+            professional site for your business
           </motion.p>
           <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i>Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
-          </motion.p>
-          <motion.p animate={inView ? { opacity: [0, 1] } : {}}>
-            <i className='fas fa-chevron-right icon'></i>Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos aut consequatur nisi
+            <i className='fas fa-chevron-right icon'></i>Get more traffic and
+            sales with custom web development
           </motion.p>
         </motion.div>
         <motion.div

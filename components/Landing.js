@@ -39,10 +39,14 @@ const LandingPage = function () {
           transition={{ duration: duration }}
         >
           {' '}
-          <h1 className={styles.welcome}>Lorem ipsum dolor sit helo dasklf</h1>
+          <h1 className={styles.welcome}>
+            Creative Digital Media Agency in Calgary
+          </h1>
           <p className={styles.description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            reiciendis blanditiis dicta beatae?.
+            We work with business innovators, business owners and entrepreneurs
+            to enhance their brand's success through digital media. We
+            understand that every company strives for the best branding efforts
+            in order to blow out competition!
           </p>
           <a className={styles.btnAbout} href='#about'>
             About Us

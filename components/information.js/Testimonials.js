@@ -36,39 +36,36 @@ const Testimonials = function () {
         <div className='card'>
           <i className='fas fa-quote-left fa-2x'></i>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            ratione reprehenderit repellat libero eveniet sequi voluptates rem
-            nihil a temporibus.
+            Not only skilled but passionate about web design. Willing to go
+            above and beyond.Thats how i`d describe my experiences of IceBerg
+            Create
           </p>
           <div className='name'>
-            <h2>Haris</h2>
-            <p>Founder</p>
+            <h2>shawn</h2>
           </div>
         </div>
         <div className='card'>
           {' '}
           <i className='fas fa-quote-left fa-2x'></i>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            ratione reprehenderit repellat libero eveniet sequi voluptates rem
-            nihil a temporibus.
+            We got our business website by Iceberg Creative. It was very easy
+            working with them and they are ready for any kind of customization
+            to uplift the look and the appearance of the website.
           </p>
           <div className='name'>
-            <h2>Jansher</h2>
-            <p>CEO</p>
+            <h2>Sarah</h2>
           </div>
         </div>
         <div className='card'>
           {' '}
           <i className='fas fa-quote-left fa-2x'></i>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            ratione reprehenderit repellat libero eveniet sequi voluptates rem
-            nihil a temporibus.
+            Great customer service. Always helpful and available when need
+            assistance. Best SEO and website comapany i have found . Great value
+            for the services received.
           </p>
           <div className='name'>
-            <h2>Waqas</h2>
-            <p>CO Founder</p>
+            <h2>lerry</h2>
           </div>
         </div>
       </motion.div>

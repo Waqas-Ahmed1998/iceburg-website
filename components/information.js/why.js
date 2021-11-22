@@ -28,8 +28,8 @@ const Why = function () {
         transition={{ delay: 0.2 }}
       ></motion.div>
       <motion.p animate={inView ? { opacity: 1 } : { opacity: 0 }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-        magni placeat sint voluptatum iure iste facili
+        We're a digital agency that not only focuses on your business, but also
+        focuses on you.
       </motion.p>
       <motion.div className={`container  ${styles.flex}`}>
         <motion.div
@@ -53,28 +53,20 @@ const Why = function () {
           {' '}
           <p>
             <i className={`fas fa-check-circle ${styles.icons}`}></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
+            You won't just be another piece in our puzzle that's pushed into the
+            confines of organizational strategy. Instead, we'll work with you to
+            define success for your business and tailor campaigns around it.
           </p>
           <p>
             <i className={`fas fa-check-circle ${styles.icons}`}></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
+            We're small enough to provide personalized service yet large enough
+            to tackle any project size- creatively or strategically.
           </p>
           <p>
             <i className={`fas fa-check-circle ${styles.icons}`}></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut
-          </p>
-          <p>
-            <i className={`fas fa-check-circle ${styles.icons}`}></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
-          </p>
-          <p>
-            <i className={`fas fa-check-circle ${styles.icons}`}></i>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut consequatur nisi
+            Our extensive experience in design and development ensures each
+            outcome is high quality with the latest trends in usability and
+            creativity
           </p>
         </motion.div>
       </motion.div>

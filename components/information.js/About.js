@@ -31,26 +31,25 @@ const About = function () {
             animate={inView ? { opacity: [0, 1] } : {}}
             // transition={{ delay: 0.5 }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic
-            molestias vel debitis expedita asperiores quidem id ea vitae autem
-            ducimus aliquid laudantium optio exercitationem consectetur
-            reprehenderit, in ratione itaque.
+            With over 10 years of experience in the digital world, Iceberg has
+            helped businesses ranging from restaurants to professional services
+            to technology companies grow their customer base and improve search
+            engine rankings.
           </motion.p>
           <motion.p
             animate={inView ? { opacity: [0, 1] } : {}}
             // transition={{ delay: 0.7 }}
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
-            cumque? Quasi doloremque ea laborum dolorum, libero unde pariatur!
-            Eligendi, omnis.
+            Iceberg Creative is an agency that helps small businesses with their
+            marketing.
           </motion.p>
           <motion.p
             animate={inView ? { opacity: [0, 1] } : {}}
             // transition={{ delay: 0.9 }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quos
-            reprehenderit assumenda fuga et, ea velit inventore aliquam
-            similique esse!
+            The company also specializes in website development & design, social
+            media management, content creation, graphic design, video production
+            and more!
           </motion.p>
         </motion.div>
         <div className={styles.sideContent}>
